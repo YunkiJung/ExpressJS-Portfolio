@@ -11,16 +11,16 @@ main{
 
 
 @media (min-width: 476px) { 
-    .navbar{
-        height: 160px;
+    .header-navbar{
+        height: 260px;
     }
 
     #logo{
-        padding-left: 36px;
-        padding-right: 36px;
-        padding-top: 24px;
-        padding-bottom: 24px;
-        font-size: 28px;
+        padding-left: 120px;
+        padding-right: 120px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 68px;
     }
 
     .navbar-toggler-icon{
@@ -28,22 +28,24 @@ main{
     }
 
     #menu{
-        font-size: 36px;
+        font-size: 68px;
     }
 
     .nav-item{
-        font-size: 28px;
+        font-size: 52px;
     }
 
     main{
-        margin-top: 160px;
+        margin-top: 178px;
     }
 
     h1{
-        font-size: 42px;
+        font-size: 68px;
     }
 
-    
+    .footer-navbar{
+        height: 180px;
+    }
 
     #copyright{
         font-size: 24px;
