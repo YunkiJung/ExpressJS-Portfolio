@@ -6,5 +6,64 @@
 }
 
 main{
-    margin-top: 66px;
+    margin-top: 80px;
+    border: 1px solid red;
 }
+
+
+@media (min-width: 476px) { 
+    .navbar{
+        height: 160px;
+    }
+
+    #logo{
+        padding: 30px;
+    }
+
+    .navbar-toggler-icon{
+        width: 50px;
+    }
+
+    main{
+        margin-top: 160px;
+    }
+
+}
+   
+
+@media (min-width: 768px) { 
+    .navbar{
+        height: 120px;
+    }
+
+    #logo{
+        padding: 20px;
+    }
+
+    .navbar-toggler-icon{
+        width: 40px;
+    }
+
+    main{
+        margin-top: 120px;
+    }
+}
+
+@media (min-width: 992px) { 
+    .navbar{
+        height: 80px;
+    }
+
+    #logo{
+        padding: 10px;
+    }
+
+    .navbar-toggler-icon{
+        width: 30px;
+    }
+
+    main{
+        margin-top: 80px;
+    }
+}
+
