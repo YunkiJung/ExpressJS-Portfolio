@@ -247,7 +247,7 @@ main{
         font-weight: bold;
         color: snow;
         position: absolute;
-        top: 58%;
+        top: 61%;
         left: 3%;
         text-align: right;
     }
@@ -262,16 +262,16 @@ main{
     }
     
     .main-image2-div > .p1{
-        top: 63%;
+        top: 66%;
     }
     .main-image2-div > .p2{
-        top: 70%;
+        top: 73%;
     }
     .main-image2-div > .p3{
-        top: 77%;
+        top: 80%;
     }
     .main-image2-div > .p4{
-        top: 88%;
+        top: 91%;
     }
 
 }
