@@ -226,7 +226,7 @@ main{
 
     .main-image-div > h1{
         font-size: 1.6em;
-        top: 24%;
+        top: 26%;
         left: 10%;
         text-align: right;
         width: 180px;
@@ -247,7 +247,7 @@ main{
         font-weight: bold;
         color: snow;
         position: absolute;
-        top: 52%;
+        top: 58%;
         left: 3%;
         text-align: right;
     }
@@ -262,16 +262,16 @@ main{
     }
     
     .main-image2-div > .p1{
-        top: 57%;
+        top: 63%;
     }
     .main-image2-div > .p2{
-        top: 64%;
+        top: 70%;
     }
     .main-image2-div > .p3{
-        top: 71%;
+        top: 77%;
     }
     .main-image2-div > .p4{
-        top: 82%;
+        top: 88%;
     }
 
 }
