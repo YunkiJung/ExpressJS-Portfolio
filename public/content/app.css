@@ -44,6 +44,40 @@ main{
     cursor: pointer;
 }
 
+@keyframes my_image_slide {
+    from{
+        right: 8%;
+    }
+    to{
+        right: 58%;
+    }
+}
+@keyframes my_image_back {
+    from{
+        right: 58%;
+    }
+    to{
+        right: 8%;
+    }
+}
+
+@keyframes m_my_image_slide {
+    from{
+        right: 8%;
+    }
+    to{
+        right: 58%;
+    }
+}
+@keyframes m_my_image_back {
+    from{
+        right: 58%;
+    }
+    to{
+        right: 8%;
+    }
+}
+
 .main-image-div > h1{
     width: 600px;
     font-size: 6em;
@@ -108,7 +142,7 @@ main{
     width: 460px;
     font-size: 2em;
     font-weight: bold;
-    color: snow;
+    color: gold;
     position: absolute;
     left: 12%;
     text-align: right;
@@ -152,14 +186,14 @@ main{
         opacity: 0;
     }
     to{
-        left: 12%;
+        left: 52%;
         opacity: 1;
     }
 }
 
 @keyframes para_disappear{
     from{
-        left: 12%;
+        left: 52%;
         opacity: 1;
     }
     to{
@@ -195,14 +229,14 @@ main{
         opacity: 0;
     }
     to{
-        left: 3%;
+        left: 40%;
         opacity: 1;
     }
 }
 
 @keyframes m_para_disappear{
     from{
-        left: 3%;
+        left: 40%;
         opacity: 1;
     }
     to{
@@ -255,7 +289,7 @@ main{
         width: 200px;
         font-size: 0.8em;
         font-weight: bold;
-        color: snow;
+        color: gold;
         position: absolute;
         left: 3%;
         text-align: right;
@@ -275,6 +309,16 @@ main{
     }
 
 }
+
+
+
+
+
+
+
+
+
+
 
 
 

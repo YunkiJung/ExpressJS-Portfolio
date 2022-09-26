@@ -16,6 +16,8 @@ let mainText = document.querySelector(".main-image-div h1");
 let nameText = document.querySelector(".main-image2-div h1");
 nameText.style.opacity = "0";
 
+let myImage = document.querySelector("#my-image");
+
 let p1 = document.querySelector(".main-image2-div .p1");
 let p2 = document.querySelector(".main-image2-div .p2");
 let p3 = document.querySelector(".main-image2-div .p3");
@@ -44,14 +46,14 @@ window.addEventListener('scroll', function(){
     if(value == 0){
         nameText.style.opacity = "0";
     }
-    else if(value > 220 && value < 750){
-        nameText.style.animation = "name_appear 1s ease-out forwards"
+    else if(value > 240 && value < 780){
+        nameText.style.animation = "name_appear 1s ease-out forwards";
     }
-    else if(value > 750){
-        nameText.style.animation = "name_disappear 1s ease-out forwards"
+    else if(value > 780){
+        nameText.style.animation = "name_disappear 1s ease-out forwards";
     }
-    else if(value < 220){
-        nameText.style.animation = "name_disappear 1s ease-out forwards"
+    else if(value < 240){
+        nameText.style.animation = "name_disappear 1s ease-out forwards";
     }
     else{
         nameText.style.opacity = "0";
@@ -74,18 +76,21 @@ window.addEventListener('scroll', function(){
             p2.style.animation = "m_para_appear 1.2s ease-out forwards";
             p3.style.animation = "m_para_appear 1.4s ease-out forwards";
             p4.style.animation = "m_para_appear 1.6s ease-out forwards";
+            myImage.style.animation = "m_my_image_slide 1s ease-out forwards";
         }
         else if(value > 378){
             p1.style.animation = "m_para_disappear 1.6s ease-out forwards";
             p2.style.animation = "m_para_disappear 1.4s ease-out forwards";
             p3.style.animation = "m_para_disappear 1.2s ease-out forwards";
             p4.style.animation = "m_para_disappear 1s ease-out forwards";
+            myImage.style.animation = "m_my_image_back 1s ease-out forwards";
         }
         else if(value < 240){
             p1.style.animation = "m_para_disappear 1s ease-out forwards";
             p2.style.animation = "m_para_disappear 1s ease-out forwards";
             p3.style.animation = "m_para_disappear 1s ease-out forwards";
             p4.style.animation = "m_para_disappear 1s ease-out forwards";
+            myImage.style.animation = "m_my_image_back 1s ease-out forwards";
         }
         else{
             p1.style.opacity = "0";
@@ -107,18 +112,21 @@ window.addEventListener('scroll', function(){
             p2.style.animation = "para_appear 1.2s ease-out forwards";
             p3.style.animation = "para_appear 1.4s ease-out forwards";
             p4.style.animation = "para_appear 1.6s ease-out forwards";
+            myImage.style.animation = "my_image_slide 1s ease-out forwards";
         }
         else if(value > 880){
             p1.style.animation = "para_disappear 1.6s ease-out forwards";
             p2.style.animation = "para_disappear 1.4s ease-out forwards";
             p3.style.animation = "para_disappear 1.2s ease-out forwards";
             p4.style.animation = "para_disappear 1s ease-out forwards";
+            myImage.style.animation = "my_image_back 1s ease-out forwards";
         }
         else if(value < 240){
             p1.style.animation = "para_disappear 1s ease-out forwards";
             p2.style.animation = "para_disappear 1s ease-out forwards";
             p3.style.animation = "para_disappear 1s ease-out forwards";
             p4.style.animation = "para_disappear 1s ease-out forwards";
+            myImage.style.animation = "my_image_back 1s ease-out forwards";
         }
         else{
             p1.style.opacity = "0";
