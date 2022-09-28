@@ -368,6 +368,17 @@ About Page ------------------------------------
     animation-timing-function: ease-in-out;
 }
 
+.about-para{
+    width: 500px;
+    font-size: 2em;
+    font-weight: bold;
+    color: gold;
+    position: absolute;
+    right: 12%;
+    top: 110%;
+    text-align: left;
+}
+
 @keyframes about_text_slide{
     from{
         right: -30%;
@@ -391,5 +402,65 @@ About Page ------------------------------------
 }
 
 
+/*
+About Page END------------------------------------
+*/
 
 
+
+
+
+
+/*
+Contact Page ------------------------------------
+*/
+
+.contact-image1-div{
+    height: 90vh;
+    background: url(./images/main-image2.png) fixed;
+    background-size: cover;
+}
+
+
+.contact-image2-div{
+    height: 90vh;
+    background: url(./images/computer-image.jpeg);
+    background-size: cover;
+}
+
+.contact-info{
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    font-size: 56px;
+    width: 800px;
+    text-align: center;
+    padding: 30px 20px 30px 20px;
+    position: absolute;
+    top: 350px;
+    left: 450px;
+    border-radius: 20px;
+}
+
+.contact-input{
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    font-size: 36px;
+    width: 800px;
+    text-align: center;
+    padding: 30px 20px 30px 20px;
+    position: absolute;
+    top: 950px;
+    left: 450px;
+    border-radius: 20px;
+}
+
+.contact-input > label{
+    width: 200px;
+    text-align: right;
+}
+
+.contact-input > input{
+    border-radius: 10px;
+}
