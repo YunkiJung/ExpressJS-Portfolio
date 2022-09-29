@@ -355,6 +355,30 @@ About Page ------------------------------------
     animation-timing-function: ease-in-out;
 }
 
+#my-image2:hover{
+    cursor: pointer;
+}
+
+.about-image1-div > h2{
+    width: 620px;
+    font-size: 3.4em;
+    font-weight: bold;
+    color: snow;
+    position: absolute;
+    top: 52%;
+    right: 10%;
+    text-align: right;
+    animation: about_text_slide 1s;
+    animation-timing-function: ease-in-out;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.about-image1-div > h2:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
 .about-image1-div > h1{
     width: 700px;
     font-size: 6em;
@@ -451,7 +475,7 @@ Contact Page ------------------------------------
     text-align: center;
     padding: 30px 20px 30px 20px;
     position: absolute;
-    top: 950px;
+    top: 880px;
     left: 450px;
     border-radius: 20px;
 }
@@ -464,3 +488,102 @@ Contact Page ------------------------------------
 .contact-input > input{
     border-radius: 10px;
 }
+
+
+/*
+Contact Page END------------------------------------
+*/
+
+
+
+
+/*
+Services Page ------------------------------------
+*/
+
+.services-image1-div{
+    height: 100vh;
+    background: url(./images/main-image2.png);
+    background-size: cover;
+}
+
+.services-image1-div > h1{
+    margin-bottom: 40px;
+    color: snow;
+    font-size: 48px;
+    text-align: center;
+}
+
+.service > img{
+    width: 400px;
+    height: 200px;
+}
+
+.service > p{
+    width: 400px;
+    color: gold;
+    font-size: 36px;
+}
+
+.service{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 280px;
+    padding-right: 280px;
+    margin-bottom: 40px;
+}
+
+
+
+/*
+Services Page END------------------------------------
+*/
+
+
+
+
+/*
+Projects Page ------------------------------------
+*/
+
+
+
+.projects-image1-div{
+    height: 100vh;
+    background: url(./images/main-image2.png);
+    background-size: cover;
+}
+
+.projects-image1-div > h1{
+    margin-bottom: 40px;
+    color: snow;
+    font-size: 48px;
+    text-align: center;
+}
+
+.project > img{
+    width: 400px;
+    height: 200px;
+}
+
+.project > p{
+    width: 400px;
+    color: gold;
+    font-size: 36px;
+}
+
+.project{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 280px;
+    padding-right: 280px;
+    margin-bottom: 40px;
+}
+
+
+
+/*
+Projects Page END------------------------------------
+*/
