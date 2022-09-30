@@ -450,6 +450,8 @@ Contact Page ------------------------------------
     height: 90vh;
     background: url(./images/computer-image.jpeg);
     background-size: cover;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .contact-info{
@@ -475,7 +477,7 @@ Contact Page ------------------------------------
     text-align: center;
     padding: 30px 20px 30px 20px;
     position: absolute;
-    top: 880px;
+    top: 950px;
     left: 450px;
     border-radius: 20px;
 }
@@ -517,6 +519,7 @@ Services Page ------------------------------------
 .service > img{
     width: 400px;
     height: 200px;
+    border-radius: 10px;
 }
 
 .service > p{
@@ -532,6 +535,7 @@ Services Page ------------------------------------
     padding-left: 280px;
     padding-right: 280px;
     margin-bottom: 40px;
+    padding-top: 44px;
 }
 
 
@@ -555,22 +559,30 @@ Projects Page ------------------------------------
     background-size: cover;
 }
 
-.projects-image1-div > h1{
-    margin-bottom: 40px;
-    color: snow;
-    font-size: 48px;
-    text-align: center;
-}
 
 .project > img{
     width: 400px;
     height: 200px;
+    border-radius: 10px;
+}
+
+.project > img:hover{
+    cursor: pointer;
+    opacity: 0.8;
 }
 
 .project > p{
     width: 400px;
+    color: yellow;
+    font-size: 30px;
+}
+
+.project > p > span{
     color: gold;
-    font-size: 36px;
+}
+
+.project > p > .skills{
+    color: snow;
 }
 
 .project{
@@ -580,6 +592,7 @@ Projects Page ------------------------------------
     padding-left: 280px;
     padding-right: 280px;
     margin-bottom: 40px;
+    padding-top: 44px;
 }
 
 
