@@ -346,7 +346,8 @@ About Page ------------------------------------
     position: fixed;
     top: 16%;
     left: 8%;
-    width: 30%;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
     animation-name: photo_up_down;
     animation-duration: 1s;
@@ -357,6 +358,7 @@ About Page ------------------------------------
 
 #my-image2:hover{
     cursor: pointer;
+    opacity: 0.8;
 }
 
 .about-image1-div > h2{
