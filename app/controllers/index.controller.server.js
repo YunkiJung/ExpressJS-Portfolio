@@ -1,7 +1,7 @@
 import fs from 'fs';
 
 export function displayHomePage(req, res, next) {
-    res.render('index', { title: 'Home', page: 'home', myName: 'Thiago'} );
+    res.render('index', { title: 'Home', page: 'home'} );
 };
 
 export function displayAboutPage(req, res, next) {
@@ -19,6 +19,11 @@ export function displayServicesPage(req, res, next) {
 export function displayContactPage(req, res, next) {
     res.render('index', { title: 'Contact', page: 'contact'} );
 };
+
+export function submitInfo(req, res, next){
+    console.log(req.body);
+    res.render('index', { title: 'Home', page: 'home'})
+}
 
 export function displayResume(req, res, next) {
     var data =fs.readFileSync('./public/content/resume.pdf');

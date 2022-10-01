@@ -4,7 +4,8 @@ import { displayAboutPage,
     displayHomePage, 
     displayProjectsPage, 
     displayResume, 
-    displayServicesPage } from "../controllers/index.controller.server.js";
+    displayServicesPage, 
+    submitInfo} from "../controllers/index.controller.server.js";
 
 const router = Router();
 
@@ -15,7 +16,7 @@ router.get('/projects', displayProjectsPage);
 router.get('/services', displayServicesPage);
 router.get('/contact', displayContactPage);
 
-router.post('/submit', displayHomePage);
+router.post('/submit', submitInfo);
 
 router.get('/resume', displayResume);
 
