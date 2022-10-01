@@ -1,3 +1,8 @@
+/*
+app.js YUN KI JUNG - 301189435 - Oct 01, 2022
+*/
+
+
 // Third-Party Modules
 import express from 'express';
 import cookieParser from 'cookie-parser';

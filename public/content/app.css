@@ -1,3 +1,11 @@
+/*
+app.css YUN KI JUNG - 301189435 - Oct 01, 2022
+*/
+
+
+/*
+Common---------------------------------
+*/
 .container-fluid{
     margin: 0;
     padding: 0;
@@ -18,7 +26,9 @@ main{
 #copyright{
     color: snow;
 }
-
+/*
+Common End----------------------------------
+*/
 
 
 

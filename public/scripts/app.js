@@ -1,14 +1,7 @@
-//IIFE
-(function()
-{
+/*
+app.js YUN KI JUNG - 301189435 - Oct 01, 2022
+*/
 
-    function Start()
-    {
-        //console.log("App Started!");
-    }
-
-    window.addEventListener('load', Start);
-})();
 
 
 
@@ -16,6 +9,7 @@ let viewportSize = document.documentElement.clientWidth;
 
 let mainText = document.querySelector(".main-image-div h1");
 
+//Animation logic for home page only
 if(mainText){
     
     let nameText = document.querySelector(".main-image2-div h1");
@@ -33,11 +27,13 @@ if(mainText){
     p3.style.opacity = "0";
     p4.style.opacity = "0";
     
-    
+    //home page scroll event
     window.addEventListener('scroll', function(){
         let value = window.scrollY;
         console.log(value);
-    
+
+
+        //main text animation in and out
         if(value > 60){
             mainText.style.animation = "disappear 1s ease-in-out forwards";
         }
@@ -47,7 +43,7 @@ if(mainText){
     
     
     
-    
+        //name animation in and out
         if(value == 0){
             nameText.style.opacity = "0";
         }
@@ -69,7 +65,7 @@ if(mainText){
         //mobile responsive
         if(viewportSize > 574 && viewportSize < 768 || viewportSize <= 574){
             
-    
+            //mobile paragraph animation in and out
             if(value == 0){
                 p1.style.opacity = "0";
                 p2.style.opacity = "0";
@@ -104,7 +100,7 @@ if(mainText){
                 p4.style.opacity = "0";
             }
         }
-        else{
+        else{ //desktop paragraph animation in and out
     
             if(value == 0){
                 p1.style.opacity = "0";

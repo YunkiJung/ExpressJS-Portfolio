@@ -1,3 +1,7 @@
+/*
+server.js YUN KI JUNG - 301189435 - Oct 01, 2022
+*/
+
 import debug from 'debug';
 debug('comp-229');
 import http from 'http';
